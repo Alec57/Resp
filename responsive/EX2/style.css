@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+h2 {
+    margin-left: 5%;
+}
+
+#Moyenne {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0 5% 0;
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.Jour {
+    display: flex;
+    margin: auto 5% auto 5%;
+    justify-content: space-between;
+    border-top: 1px solid;
+    height: 90px;
+}
+
+.Jour p {
+    width: 15%;
+    align-self: center;
+}
+
+#degree {
+    display: flex;
+    flex-direction: column;
+    margin: auto 1%;
+}
+
+@media screen and (min-width:900px) {
+    body {
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        border: 1px solid;
+        height: 200px;
+    }
+    #firstLine {
+        width: 50%;
+    }
+    .Jour {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        border: none;
+        margin: 0;
+    }
+    .Jour,
+    .Jour p {
+        padding: 1%;
+        width: 100%;
+    }
+    #degree {
+        display: flex;
+        flex-direction: row;
+    }
+    p {
+        text-align: center;
+        margin: 3% 0;
+    }
+}
